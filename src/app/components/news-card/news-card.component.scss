@@ -1,6 +1,26 @@
-.news-card{
+.news-card {
   background-color: #80808047;
-  width: 8%;
-  height: 20%;
+  height: 100%;
+  margin-bottom: 4%;
   border-radius: 30px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 200px) {
+  .news-card {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .news-card {
+    height: 200px;
+    width: 200px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .news-card {
+    height: 300px;
+    width: 300px;
+  }
 }

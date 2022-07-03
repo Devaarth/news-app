@@ -1,4 +1,25 @@
 <app-search-bar></app-search-bar>
-<app-video-card></app-video-card>
+<div class="main-video-container">
+    <div class="main-video-item">
+        <app-video-card></app-video-card>
+    </div>
+</div>
 <div id="category-text">Category Name</div>
-<app-news-card></app-news-card>
+<div class="video-container">
+    <div *ngFor="let vidItems of vidCardsItem" class="video-items">
+        <app-video-card></app-video-card>
+    </div>
+</div>
+<div id="category-text">Category Name</div>
+<div class="news-container">
+    <div *ngFor="let vidItems of vidCardsItem" class="news-items">
+        <app-news-card></app-news-card>
+        <app-news-card></app-news-card>
+    </div>
+</div>
+<div id="category-text">Category Name</div>
+<div class="video-container">
+    <div *ngFor="let vidItems of vidCardsItem" class="video-items">
+        <app-video-card></app-video-card>
+    </div>
+</div>

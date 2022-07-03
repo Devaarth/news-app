@@ -1,5 +1,43 @@
-#category-text{
-  padding-left: var(--padding-elements);
+#category-text {
+  padding: 1%;
+  font-weight: bold;
+  font-size: 2em;
 }
 
-  
+.video-container {
+  display: flex;
+  overflow: scroll;
+}
+
+.video-items {
+  flex-basis: 33%;
+}
+
+.news-container {
+  display: flex;
+  overflow: scroll;
+  padding: 1%;
+}
+
+.news-items {
+  flex: auto;
+}
+@media screen and (min-width: 401px) {
+  .main-video-container{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+}
+
+.main-video-item{
+  margin-top: 10px;
+}
+@media screen and (max-width: 400px) {
+  .main-video-container{
+    display: block;
+    justify-content: start;
+    margin-right: 15px;
+    overflow: hidden;
+  }
+}
