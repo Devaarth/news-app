@@ -1,0 +1,61 @@
+@mixin interactive-btn {
+  cursor: pointer;
+  color: gray;
+
+  &.is-active {
+    color: black;
+  }
+}
+
+.video-card {
+  max-width: 400px;
+  box-shadow: none;
+}
+
+.news-video {
+  width: 416px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.interactive-btn-like {
+  @include interactive-btn;
+}
+
+.interactive-btn-comment {
+  @include interactive-btn;
+}
+
+.interactive-btn-share {
+  @include interactive-btn;
+}
+
+.icon-container-main {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 5%;
+}
+
+.icon-container {
+  flex-basis: 33.3%;
+}
+
+.icon-label {
+  padding-left: 15%
+}
+
+.first-heading {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.text-heading {
+  padding-left: var(--padding-elements);
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.date-item {
+  font-size: larger;
+  padding-top: 10px;
+}

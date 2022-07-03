@@ -1,1 +1,6 @@
-<p>search-bar works!</p>
+
+
+<div class="form-group">
+    <span class="searchbox-icon"><i class="fa fa-search"></i></span>
+    <input class="center-block fullwidth search" type="text" placeholder="The News Channel" class="search-bar" (ngModelChange)="onFormChange($event)" [ngModel]="inputVal" (click)="onSearch()"/>
+  </div>
