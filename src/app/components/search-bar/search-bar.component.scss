@@ -10,11 +10,11 @@
 }
 
 .search-bar {
-    font-size: 27px;
+    font-size: 2em;
     text-align: center;
     width: 100%;
     box-shadow: -1px 1px 10px 0px #80808066;
-    border-color: #80808024;
+    border-color: var(--gray-theme-colour);
     border-width: 0.2px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
@@ -22,6 +22,5 @@
     &:focus {
         outline: none;
     }
-
     margin: 0;
 }

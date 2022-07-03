@@ -1,6 +1,6 @@
 @mixin interactive-btn {
   cursor: pointer;
-  color: gray;
+  color: #808080e3;
 
   &.is-active {
     color: black;
@@ -11,7 +11,6 @@
   max-width: 400px;
   box-shadow: none;
 }
-
 
 .news-video {
   width: 416px;
@@ -35,7 +34,6 @@
   display: flex;
   justify-content: space-evenly;
   margin-left: 5%;
-
 }
 
 .icon-container {
@@ -45,7 +43,6 @@
 .icon-label {
   padding-left: 15%
 }
-
 
 .first-heading {
   font-size: 2em;
